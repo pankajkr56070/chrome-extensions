@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Crypto Price Tracker",
+    "version": "1.0",
+    "description": "Track cryptocurrency prices in real-time.",
+    "permissions": [
+      "activeTab"
+    ],
+    "host_permissions": [
+      "https://api.coingecko.com/*"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
